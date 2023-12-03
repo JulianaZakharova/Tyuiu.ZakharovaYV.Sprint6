@@ -30,6 +30,7 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task0.V23
         private void InitializeComponent()
         {
             this.groupBoxTask = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBoxFormula_ZYV = new System.Windows.Forms.PictureBox();
             this.groupBoxInput_ZYV = new System.Windows.Forms.GroupBox();
             this.labelX_ZYV = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task0.V23
             this.textBoxResult_ZYV = new System.Windows.Forms.TextBox();
             this.labelRes_ZYV = new System.Windows.Forms.Label();
             this.buttonDone_ZYV = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.buttonHelp_ZYV = new System.Windows.Forms.Button();
             this.groupBoxTask.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_ZYV)).BeginInit();
@@ -56,6 +56,15 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task0.V23
             this.groupBoxTask.TabIndex = 0;
             this.groupBoxTask.TabStop = false;
             this.groupBoxTask.Text = "Условие :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(19, 19);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(334, 149);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Вычислить выражение по формуле :";
             // 
             // pictureBoxFormula_ZYV
             // 
@@ -131,15 +140,6 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task0.V23
             this.buttonDone_ZYV.Text = "Выполнить";
             this.buttonDone_ZYV.UseVisualStyleBackColor = true;
             this.buttonDone_ZYV.Click += new System.EventHandler(this.buttonDone_ZYV_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(19, 19);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 149);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Вычислить выражение по формуле :";
             // 
             // buttonHelp_ZYV
             // 
