@@ -29,9 +29,9 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask_ZYV = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxTask_ZYV = new System.Windows.Forms.TextBox();
@@ -48,12 +48,14 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
             this.ColumnF = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonDone_ZYV = new System.Windows.Forms.Button();
             this.buttonHelp_ZYV = new System.Windows.Forms.Button();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.groupBoxTask_ZYV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxInPut_ZYV.SuspendLayout();
             this.groupBoxOutPut_ZYV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxTask_ZYV
@@ -153,18 +155,18 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
             // 
             // chartFunction
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartFunction.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartFunction.Legends.Add(legend4);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartFunction.Legends.Add(legend3);
             this.chartFunction.Location = new System.Drawing.Point(143, 69);
             this.chartFunction.Name = "chartFunction";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series4.IsVisibleInLegend = false;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartFunction.Series.Add(series4);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsVisibleInLegend = false;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction.Series.Add(series3);
             this.chartFunction.Size = new System.Drawing.Size(509, 300);
             this.chartFunction.TabIndex = 1;
             this.chartFunction.Text = "chart1";
@@ -218,6 +220,11 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
             this.buttonHelp_ZYV.UseVisualStyleBackColor = false;
             this.buttonHelp_ZYV.Click += new System.EventHandler(this.buttonHelp_ZYV_Click);
             // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,6 +246,7 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
             this.groupBoxOutPut_ZYV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -261,6 +269,7 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task2.V28
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnX;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnF;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }
 
