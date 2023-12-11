@@ -29,10 +29,10 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task4.V8
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxTask_ZYV = new System.Windows.Forms.GroupBox();
             this.textBoxTask_ZYV = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -145,24 +145,24 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task4.V8
             // 
             // chartFunction_ZYV
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_ZYV.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_ZYV.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_ZYV.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_ZYV.Legends.Add(legend2);
             this.chartFunction_ZYV.Location = new System.Drawing.Point(234, 26);
             this.chartFunction_ZYV.Name = "chartFunction_ZYV";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_ZYV.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_ZYV.Series.Add(series2);
             this.chartFunction_ZYV.Size = new System.Drawing.Size(742, 386);
             this.chartFunction_ZYV.TabIndex = 3;
             this.chartFunction_ZYV.Text = "chart1";
-            title1.Name = "Title1";
-            title1.Text = "График функций sin(x)";
-            this.chartFunction_ZYV.Titles.Add(title1);
+            title2.Name = "Title1";
+            title2.Text = "График функций sin(x)";
+            this.chartFunction_ZYV.Titles.Add(title2);
             // 
             // textBoxRezult_ZYV
             // 

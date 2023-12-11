@@ -29,9 +29,9 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task5.V12
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1_ZYV = new System.Windows.Forms.Panel();
             this.buttonHelp_ZYV = new System.Windows.Forms.Button();
             this.buttonOpenFile_ZYV = new System.Windows.Forms.Button();
@@ -166,16 +166,16 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task5.V12
             // 
             // chartFunction_ZYV
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartFunction_ZYV.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartFunction_ZYV.Legends.Add(legend2);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction_ZYV.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartFunction_ZYV.Legends.Add(legend3);
             this.chartFunction_ZYV.Location = new System.Drawing.Point(219, 129);
             this.chartFunction_ZYV.Name = "chartFunction_ZYV";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartFunction_ZYV.Series.Add(series2);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction_ZYV.Series.Add(series3);
             this.chartFunction_ZYV.Size = new System.Drawing.Size(569, 318);
             this.chartFunction_ZYV.TabIndex = 2;
             this.chartFunction_ZYV.Text = "chart1";
@@ -189,7 +189,7 @@ namespace Tyuiu.ZakharovaYV.Sprint6.Task5.V12
             this.Controls.Add(this.panel2_ZYV);
             this.Controls.Add(this.panel1_ZYV);
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 5 | Вариант 12  | Захарова Ю. В";
             this.panel1_ZYV.ResumeLayout(false);
             this.groupBoxTask_ZYV.ResumeLayout(false);
             this.groupBoxTask_ZYV.PerformLayout();
